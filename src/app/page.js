@@ -5,8 +5,8 @@ export default function Home(){
     return(
         <main className="min-h-screen text-black" >
           
-            <section className="w-full z-10 mx-auto md:w-4/6 block" >
-                <div className="flex items-end pc justify-between p-6 " >
+            <section className="w-full mb-36 z-10 mx-auto md:w-4/6 block" >
+                <div className="flex items-end pc justify-between p-6 px-0" >
                     <h1 className="text-6xl flex gap-2" >W.<HiOutlineArrowSmDown/> </h1>
                     <div className="flex gap-8 " >
                         <Link href={'/'} >Home</Link>
@@ -46,7 +46,7 @@ export default function Home(){
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-wrap lg:flex-nowrap w-11/12 mx-auto md:mx-0 justify-between mt-16 gap-8" >
+                <div className="flex flex-wrap lg:flex-nowrap w-11/12 mx-auto md:mx-0 justify-between mt-24 gap-8" >
                     <div className="flex gap-3" >
                         <Image className="w-24 object-cover" width='300' height='500' alt="" src='https://picsum.photos/1000/700'  />
                         <div>
