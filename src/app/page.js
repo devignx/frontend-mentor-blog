@@ -7,7 +7,7 @@ export default function Home(){
           
             <section className="w-full mb-36 z-10 mx-auto md:w-4/6 block" >
                 <div className="flex items-end pc justify-between p-6 px-0" >
-                    <h1 className="text-6xl flex gap-2" >W.<HiOutlineArrowSmDown/> </h1>
+                    <h1 className="text-6xl flex gap-2 hover:text-red-400" >W.<HiOutlineArrowSmDown/> </h1>
                     <div className="flex gap-8 " >
                         <Link href={'/'} >Home</Link>
                         <Link href={'/'} >New</Link>
@@ -26,7 +26,7 @@ export default function Home(){
                         <h1 className="text-5xl" >The Bright Future of Web 3.0?</h1>
                         <div className="w-1012 md:w-3/5" >
                             <p className="font-medium" >We dive into the next evolution of the web that claims to put the power of the platforms back into the hands or the people. But is it really fulfilling its promise?</p>
-                            <button className="bg-red-400 mt-3 uppercase text-white px-4 py-2" >Read More</button>
+                            <button className="bg-red-400 rounded-bl-2xl rounded-t-lg mt-3 transition-all ease-in-out duration-500 uppercase text-white px-4 py-2" >Read More</button>
                         </div>
                     </div>
                     </div>
